@@ -1,7 +1,6 @@
 flask
-ultralytics
+ultralytics==8.0.20
 opencv-python
 numpy
 pillow
-tensorflow
-reportlab
+tensorflow==2.13.0
