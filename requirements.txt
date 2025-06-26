@@ -1,8 +1,13 @@
 flask
-ultralytics==8.0.20
+gunicorn
+ultralytics==8.0.20           # ties in with torch 2.0.1
+torch==2.0.1+cpu
+torchvision==0.15.2+cpu
+torchaudio==2.0.2+cpu
 opencv-python
 numpy
 pillow
-tensorflow==2.13.0
-gunicorn
+tensorflow==2.13.0            # your .keras model
 typing_extensions>=4.5.0
+# use the PyTorch CPU index:
+-f https://download.pytorch.org/whl/cpu
