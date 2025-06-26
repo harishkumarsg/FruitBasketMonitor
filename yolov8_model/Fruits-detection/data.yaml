@@ -1,0 +1,13 @@
+names:
+- Apple
+- Banana
+- Grapes
+- Orange
+- Pineapple
+- Watermelon
+nc: 6
+test: C:\Users\Harish Kumar S G\OneDrive\Desktop\FruitBasketMonitor\yolov8_model\Fruits-detection\test\images
+
+train: C:\Users\Harish Kumar S G\OneDrive\Desktop\FruitBasketMonitor\yolov8_model\Fruits-detection\train\images
+
+val: C:\Users\Harish Kumar S G\OneDrive\Desktop\FruitBasketMonitor\yolov8_model\Fruits-detection\valid\images
